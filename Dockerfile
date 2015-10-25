@@ -4,7 +4,7 @@ RUN \
 	apt-get update && \
 	DEBIAN_FRONTEND=noninteractive \
 		apt-get -y install \
-			gearman-job-server
+			gearman-job-server \
 	&& \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/*
